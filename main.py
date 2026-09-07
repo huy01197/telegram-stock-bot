@@ -205,7 +205,7 @@ def main():
     bot_link = f"https://t.me/{bot_username}" if bot_username else "Ứng dụng Telegram"
 
     print("\n" + "=" * 80)
-    print("🚀 HỆ THỐNG TELEGRAM BOT ĐẦU TƯ CHỨNG KHOÁN (FINTECH BOT) - ĐANG CHẠY TRỰC TUYẾN")
+    print("🚀 HỆ THỐNG TELEGRAM BOT TÍN HIỆU ĐẦU TƯ CHỨNG KHOÁN (FINTECH BOT) - ĐANG CHẠY TRỰC TUYẾN")
     print("=" * 80)
     print(f"🤖 Tên Bot: {bot_name} (@{bot_username})")
     print(f"🔗 Link mở trực tiếp: {bot_link}")

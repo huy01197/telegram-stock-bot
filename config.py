@@ -1,5 +1,5 @@
 """
-Module cấu hình tập trung cho toàn bộ hệ thống Telegram Bot Đầu Tư Chứng Khoán.
+Module cấu hình tập trung cho toàn bộ hệ thống Telegram Bot Tín Hiệu Đầu Tư Chứng Khoán.
 Bao gồm: API Token, danh sách mã cổ phiếu theo dõi, các tham số chỉ báo kỹ thuật,
 tiêu chí lọc báo cáo tài chính và ngưỡng quản trị rủi ro.
 """

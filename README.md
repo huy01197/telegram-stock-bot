@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Telegram](https://img.shields.io/badge/Telegram_Bot_API-v20%2B-24A1DE?style=flat-square&logo=telegram&logoColor=white)](https://core.telegram.org/bots/api)
 [![Architecture](https://img.shields.io/badge/Architecture-Clean_4--Layer-555555?style=flat-square)]()
-[![Presentation](https://img.shields.io/badge/Live_Presentation-GitHub_Pages-22c55e?style=flat-square&logo=githubpages&logoColor=white)](https://huy01197.github.io/telegram-stock-bot/)
+[![System Showcase](https://img.shields.io/badge/System_Showcase-GitHub_Pages-22c55e?style=flat-square&logo=githubpages&logoColor=white)](https://huy01197.github.io/telegram-stock-bot/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)]()
 [![Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)]()
 
@@ -11,10 +11,10 @@
   <img src="assets/banner.png" alt="Telegram Stock Bot Banner" width="100%">
 </p>
 
-Hệ thống Telegram Bot tự động hóa phân tích thị trường chứng khoán Việt Nam, tạo và phát tín hiệu Mua/Bán (Buy/Sell) theo thời gian thực dựa trên sự kết hợp giữa **Phân tích Kỹ thuật (Technical Analysis)** và **Cơ bản kết hợp Dòng tiền (CANSLIM / SEPA)**.
+Hệ thống Telegram Bot tự động hóa phân tích thị trường chứng khoán Việt Nam, tạo và phát tín hiệu Mua/Bán (Buy/Sell) thời gian thực theo mô hình đồng thuận giữa **Phân tích Kỹ thuật (Technical Analysis)** cùng **Mô hình Cơ bản - Dòng tiền Tăng trưởng (CANSLIM / SEPA)**.
 
 * **Repository**: [github.com/huy01197/telegram-stock-bot](https://github.com/huy01197/telegram-stock-bot)
-* **Live Presentation**: [huy01197.github.io/telegram-stock-bot](https://huy01197.github.io/telegram-stock-bot/)
+* **System Showcase (Trực tuyến)**: [huy01197.github.io/telegram-stock-bot](https://huy01197.github.io/telegram-stock-bot/)
 * **Bot Username**: `@huy_fintech_stock_bot`
 * **Thời gian khởi chạy**: 1.2 giây (1-Click Play trên VS Code)
 * **Độ trễ phản hồi**: Dưới 0.4 giây qua SQLite Cache TTL
@@ -91,7 +91,7 @@ telegram-stock-bot/
 ├── .env.example                # File mẫu cấu hình biến môi trường an toàn
 ├── .gitignore                  # Cấu hình loại trừ file nhạy cảm và cache
 ├── assets/                     # Tài nguyên hình ảnh, banner và sơ đồ kiến trúc
-├── index.html                  # Ứng dụng slide báo cáo trực quan phát hành qua GitHub Pages
+├── index.html                  # Bản trình diễn tương tác hệ thống (System Showcase) trên GitHub Pages
 ├── .vscode/                    # Cấu hình nút Run / Play / Debug trên VS Code
 ├── README.md                   # Tài liệu hướng dẫn sử dụng và vận hành
 │
@@ -198,8 +198,8 @@ python main.py --test
 python backtest_runner.py --symbols FPT,SSI,HPG,VNM,MWG --days 180 --strategy TA
 ```
 
-#### Cách 6: Trình Chiếu Slide Báo Cáo Trực Tiếp Trên Web (Interactive Presentation)
-Báo cáo thuyết trình dự án 7 trang chuẩn giao diện Dark Mode được phát hành trực tiếp qua GitHub Pages:
+#### Cách 6: Trải Nghiệm Bản Trình Diễn Hệ Thống Trực Tuyến (Interactive System Showcase)
+Bản trình diễn tương tác 7 phần chuẩn giao diện Dark Mode được phát hành trực tiếp qua GitHub Pages:
 * **Xem trực tiếp trên Web**: [https://huy01197.github.io/telegram-stock-bot/](https://huy01197.github.io/telegram-stock-bot/)
 * **Khởi chạy cục bộ**: Mở file [`index.html`](./index.html) trên trình duyệt hoặc chạy lệnh:
   ```bash
