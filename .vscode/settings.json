@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "/opt/anaconda3/bin/python3",
+    "python.terminal.activateEnvironment": true
+}

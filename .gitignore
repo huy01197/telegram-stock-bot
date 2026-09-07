@@ -1,0 +1,33 @@
+# Environment & Sensitive Credentials
+.env
+*.key
+*.pem
+
+# Excluded Folders (Documentation / Assignment materials as requested)
+Branch/
+
+# Cache & Storage
+data_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+cafef_downloads/
+*.db
+*.sqlite3
+
+# Operating System & IDE
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
