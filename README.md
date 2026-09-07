@@ -80,6 +80,7 @@ telegram-stock-bot/
 ├── .env.example                # File mẫu cấu hình biến môi trường an toàn
 ├── .gitignore                  # Cấu hình loại trừ file nhạy cảm và cache
 ├── assets/                     # Tài nguyên hình ảnh, banner và sơ đồ kiến trúc
+├── slide_bao_cao_muc_5.html    # Bộ slide báo cáo tương tác 7 trang chuẩn UI Dark Mode
 ├── .vscode/                    # Cấu hình nút Run / Play / Debug trên VS Code
 ├── README.md                   # Tài liệu hướng dẫn sử dụng và vận hành
 │
@@ -178,6 +179,14 @@ python main.py --test
 ```bash
 python backtest_runner.py --symbols FPT,SSI,HPG,VNM,MWG --days 180 --strategy TA
 ```
+
+#### Cách 6: Trình Chiếu Slide Báo Cáo Tương Tác (HTML Presentation)
+Báo cáo thuyết trình dự án 7 trang chuẩn giao diện Dark Mode nằm trực tiếp tại [`slide_bao_cao_muc_5.html`](./slide_bao_cao_muc_5.html):
+```bash
+open slide_bao_cao_muc_5.html
+```
+* **Điều khiển**: Dùng phím `←` / `→` hoặc phím cách `Space` để chuyển slide, phím **`F`** để bật/tắt chế độ toàn màn hình.
+* **Xem trực tuyến**: [Trình Chiếu Slide Báo Cáo Online](https://htmlpreview.github.io/?https://github.com/huy01197/telegram-stock-bot/blob/main/slide_bao_cao_muc_5.html)
 
 ---
 
