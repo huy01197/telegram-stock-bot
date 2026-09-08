@@ -78,7 +78,11 @@ Không dùng chỉ báo đơn lẻ; kết hợp chặt chẽ giữa:
 Hệ thống được thiết kế theo mô hình phân tầng chuẩn công nghiệp (Clean 4-Layer Architecture), đảm bảo tính độc lập, chịu lỗi cao và mở rộng linh hoạt:
 
 <p align="center">
-  <img src="assets/architecture.png" width="100%" alt="Kiến Trúc Hệ Thống 4 Tầng" />
+  <a href="diagram_telegram_stock_bot_5tier.html">
+    <img src="assets/telegram_stock_bot_architecture_5tier.png" width="100%" alt="Kiến Trúc Hệ Thống 5 Tầng Toàn Trình Telegram Stock Bot" />
+  </a>
+  <br>
+  <em>Sơ đồ luồng xử lý toàn trình (Interactive Flowchart: <a href="diagram_telegram_stock_bot_5tier.html">diagram_telegram_stock_bot_5tier.html</a>)</em>
 </p>
 
 Cấu trúc cây thư mục mã nguồn:
