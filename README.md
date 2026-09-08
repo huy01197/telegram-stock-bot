@@ -4,6 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram_Bot_API-v20%2B-24A1DE?style=flat-square&logo=telegram&logoColor=white)](https://core.telegram.org/bots/api)
 [![Architecture](https://img.shields.io/badge/Architecture-Clean_4--Layer-555555?style=flat-square)]()
 [![System Showcase](https://img.shields.io/badge/System_Showcase-GitHub_Pages-22c55e?style=flat-square&logo=githubpages&logoColor=white)](https://huy01197.github.io/telegram-stock-bot/)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square&logo=github)](https://github.com/huy01197/telegram-stock-bot/releases/tag/v1.0.0)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)]()
 [![Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)]()
 
